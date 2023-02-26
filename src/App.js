@@ -10,7 +10,6 @@ import { AnimatePresence } from "framer-motion";
 
 function App() {
   const location = useLocation();
-  const [noFade, setNoFade] = useState(true);
 
   const [pizza, setPizza] = useState({ base: "", toppings: [] });
 

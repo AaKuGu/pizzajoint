@@ -16,10 +16,6 @@ const Toppings = ({ addTopping, pizza }) => {
     "tomatoes",
   ];
 
-  useEffect(() => {
-    
-  })
-
   return (
     <motion.div
       className="toppings container"

@@ -5,10 +5,7 @@ import {
   OrderTitleAnimation,
 } from "../animations/animation";
 
-import { useLocation } from "react-router-dom";
-
 const Order = ({ pizza }) => {
-  const location = useLocation();
 
   return (
     <motion.div
