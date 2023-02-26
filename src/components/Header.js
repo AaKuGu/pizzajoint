@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const svgAnimation = {
   initial: {
-    rotate: -360,
+    rotate: -180,
   },
   animate: {
     rotate: 0,
     transition: {
-      duration: 2.22,
+      duration: 0.5,
     },
   },
 };
